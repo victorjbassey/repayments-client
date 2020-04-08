@@ -1,11 +1,15 @@
 import React from "react";
+import { Link } from 'react-router-dom'
+import { Result, Button } from 'antd'
 
 const NotFound = () => {
   return (
-    <div className="not-found">
-      <h1>Not Found</h1>
-      <p>The page you are looking for does not exist...</p>
-    </div>
+    <Result
+    status="404"
+    title="404"
+    subTitle="Sorry, the page you visited does not exist."
+    extra={<Button type="primary"><Link to="/">Back Home</Link></Button>}
+  />
   );
 };
 
