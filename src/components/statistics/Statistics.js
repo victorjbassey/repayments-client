@@ -2,6 +2,7 @@ import React from "react";
 import { Statistic, Card, Row, Col } from "antd";
 
 const Statistics = () => {
+
   return (
     <div>
       <Row gutter={16}>
@@ -27,7 +28,7 @@ const Statistics = () => {
           <Card>
             <Statistic
               title="Total Number of Repayments made"
-              value={20000}
+              value={12500}
               valueStyle={{ color: "#3c917d" }}
             />
           </Card>
