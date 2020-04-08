@@ -1,0 +1,187 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 62.5%;
+  line-height: 1.7;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px 5px 6px -3px rgba(0, 0, 0, 0.25);
+  /* z-index: 20; */
+  font-size: 1.1rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  margin-top: 2rem;
+}
+
+.nav-links li {
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+}
+
+.logo {
+  width: 15rem;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.home {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 1),
+      40%,
+      rgba(60, 145, 125, 0.8)
+    ),
+    url(./assets/farms1.jpg);
+  background-size: cover;
+  height: 91.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__heading {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.home__heading--main {
+  font-size: 4rem;
+  font-weight: 400;
+  letter-spacing: 3rem;
+  
+}
+
+.home__heading--sub {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1.6rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  padding: 0.5rem 2.5rem;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 1.2rem;
+  border-radius: 10rem;
+  transition: all 0.2s;
+  position: relative;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(-0.3rem);
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+.btn:hover::after {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  opacity: 0;
+}
+
+.btn:active,
+.btn:focus {
+  outline: none;
+  -webkit-transform: translateY(-0.1rem);
+  transform: translateY(-0.1rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.btn--white {
+  background-color: #fff;
+  color: #777;
+}
+.btn--white::after {
+  background-color: #fff;
+}
+
+.sider {
+  padding-top: 70px;
+  min-height: 91.5vh;
+}
+
+.ant-layout-sider {
+  background: #fff;
+  box-shadow: 3px 0 1px #ccc;
+}
+
+.ant-layout-sider-trigger {
+  background: #3c917d;
+}
+
+.content {
+  padding: 3rem;
+}
+
+.repay-btn {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.repayment-area {
+  padding: 2rem;
+  background: #fff;
+  margin-top: 3rem;
+}
+
+.repayment-area h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.repayment-upload {
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+}
+
+.repay-cta {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.amount {
+  width: 100%;
+}
+
+.not-found {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  padding: 3rem;
+  font-size: 1.2rem;
+}
