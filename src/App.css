@@ -160,6 +160,7 @@ body {
 
 .repayment-upload {
   display: grid;
+  gap: 2rem;
   grid-template-columns: 20rem 1fr;
 }
 
@@ -184,4 +185,21 @@ body {
 .about {
   padding: 3rem;
   font-size: 1.2rem;
+}
+
+.changes-header {
+  display: flex;
+}
+
+.changes-header p {
+  margin-right: 1rem;
+}
+
+.label {
+  font-weight: 700;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
 }
