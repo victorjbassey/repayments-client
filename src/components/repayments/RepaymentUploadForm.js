@@ -89,7 +89,7 @@ const RepaymentUploadForm = () => {
 
       <div className="repay-cta">
         <Button type="primary" htmlType="submit" loading={loading}>
-          Add
+          Check
         </Button>
         <Button
           style={{ marginLeft: "8px" }}

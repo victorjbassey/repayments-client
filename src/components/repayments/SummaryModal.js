@@ -62,6 +62,7 @@ const SummaryModal = () => {
       visible={summariesToModify !== null}
       onOk={() => addToRepaymentUploads()}
       onCancel={() => clearProposedChanges()}
+      okText="Add"
     >
       {summariesToModify !== null && (
         <>
